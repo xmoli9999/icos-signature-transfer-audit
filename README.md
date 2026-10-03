@@ -8,7 +8,7 @@ Licence: MIT (see `LICENSE`). Written for deposition on Zenodo and mirroring on
 GitHub, as required by the journal's open-source and data-availability policy.
 
 Repository: https://github.com/xmoli9999/icos-signature-transfer-audit  
-Archived version of record: https://doi.org/10.5281/zenodo.23116737
+Archived version of record: https://doi.org/10.5281/zenodo.23118493
 
 ## What this is, and what it is not
 
@@ -48,6 +48,23 @@ provenance/                  figure-source manifest, the Kwok deposition check,
 CHECKSUMS.sha256             sha256 for every file in this archive
 ```
 
+## Requirements
+
+No installation step is needed: the archive is run in place, from its own root.
+
+Python 3.10 or later. The audit and figure scripts import `numpy`, `pandas`,
+`scipy`, `statsmodels` and `matplotlib`; the versions these results were produced
+and re-verified under are Python 3.10.12, numpy 2.2.6, pandas 2.3.3 and scipy
+1.15.3. The reference implementation in `decomposition_reference/` needs only
+`numpy` and `pandas`, and its test suite needs nothing beyond the standard
+library.
+
+```
+pip install numpy pandas scipy statsmodels matplotlib
+```
+
+Every command below is run from the root of this archive.
+
 ## Reproducing the reported numbers
 
 The four-term decomposition and the six detection-depth correlations are the two
@@ -56,8 +73,9 @@ standalone audit scripts that recompute from archived inputs and assert against 
 reported values:
 
 ```
-python3 code/analysis/figure2_decomposition_audit.py
-python3 code/analysis/figure3_depth_correlation_audit.py
+export ICOS_BASE=/path/to/this/archive
+python3 scripts/figure2_decomposition_audit.py
+python3 scripts/figure3_depth_correlation_audit.py
 ```
 
 Both read `ICOS_BASE` from the environment; set it to the root of this archive. Both were run from inside this archive, with no other inputs, before it was deposited: they recompute the values and their assertions pass.
@@ -65,7 +83,7 @@ Both read `ICOS_BASE` from the environment; set it to the root of this archive. 
 The decomposition also has a dependency-free test suite:
 
 ```
-cd code/decomposition_reference && python3 -m unittest discover -s tests -t .
+cd decomposition_reference && python3 -m unittest discover -s tests -t .
 ```
 
 Fifteen tests, no third-party test framework required; all pass from inside this archive. They cover analytic toy
