@@ -1,0 +1,12 @@
+component,estimate
+within_state_at_NS_weights,0.0036532309026953433
+composition_at_NS_levels,-0.0028159006193097234
+interaction,6.520557245153435e-05
+between_patient_covariance,-0.0004796651992069352
+reconstructed_total,0.0004228706566302191
+observed_patient_weighted_total,0.0004228706566302212
+closure_error,-2.1141942363467336e-18
+covariance_CM,-0.000576831461694871
+covariance_Eff/EM,9.716626248793583e-05
+n_patients_CI_NS,19.0
+n_patients_CI_Sep,19.0

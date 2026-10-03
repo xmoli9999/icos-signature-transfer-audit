@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this archive, please cite the accompanying article."
+title: "Analysis code and frozen provenance for: Cell-state mixture and detection depth can change what a transferred single-cell signature reports"
+license: MIT
+authors:
+  - family-names: Jin
+    given-names: Linzi
+  - family-names: Chen
+    given-names: Danxia
+  - family-names: Wang
+    given-names: Zhenxia
+  - family-names: Tang
+    given-names: Min
+  - family-names: Shu
+    given-names: Qinqin
+  - family-names: Li
+    given-names: Yan
+    orcid: "https://orcid.org/0009-0000-2236-5199"
