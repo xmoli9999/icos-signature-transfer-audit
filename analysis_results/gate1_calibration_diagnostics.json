@@ -1,0 +1,20 @@
+{
+  "sig_det_f_median": 0.09145535094389526,
+  "ctrl_det_f_median": 0.09406718021621979,
+  "sig_mean_e_median": 0.13314671277051687,
+  "ctrl_mean_e_median": 0.138451178368531,
+  "n_unique_ctrl_genes": 6774,
+  "K": 100,
+  "seed": 20260915,
+  "maxrank": 1500,
+  "n_bins_det": 20,
+  "n_bins_expr": 20,
+  "n_primary_memory_cells": 120988,
+  "n_scored_cells": 235994,
+  "universe_size": 28167,
+  "radius_r0_frac": 0.9906542056074766,
+  "radius_max": 1,
+  "consistency_max_abs_diff_vs_step2": 7.44781494810276e-09,
+  "spearman_nFeature_raw_ucell": 0.5269797569759289,
+  "spearman_nFeature_delta_ucell": 0.201545205661946
+}

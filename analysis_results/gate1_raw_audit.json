@@ -1,0 +1,16 @@
+{
+  "raw_coverage": {
+    "_index": {
+      "n_genes": 36601,
+      "n_hit": 107,
+      "coverage": 1.0,
+      "missing": []
+    }
+  },
+  "raw_X_is_integer_counts": false,
+  "raw_X_sample_stats": {
+    "min": 0.3445850402755984,
+    "max": 8.138770646412862,
+    "mean": 0.8660027957707079
+  }
+}

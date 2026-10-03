@@ -1,0 +1,33 @@
+/Users/heavenlake/Library/Python/3.9/lib/python/site-packages/anndata/_core/anndata.py:1754: UserWarning: Observation names are not unique. To make them unique, call `.obs_names_make_unique`.
+  utils.warn_names_duplicates("obs")
+signature 107 个；mapping 5 行
+
+obs 读入：(644147, 13)
+待打分细胞（CD4 T ∪ CD4 Treg）= 235,994
+celltype_fine
+CD4 T Naive     80501
+CD4 T Eff/EM    71562
+CD4 T CM        49426
+CD4 CTL         20564
+CD4 Treg        13941
+
+raw 基因数 36,601；signature 命中 107；AUCell 阈值 rank ≤ 1830
+  2,740/235,994 细胞  用时 0.3 分  预计剩余 22.2 分
+  38,758/235,994 细胞  用时 0.4 分  预计剩余 2.0 分
+  71,696/235,994 细胞  用时 0.5 分  预计剩余 1.1 分
+  106,099/235,994 细胞  用时 0.6 分  预计剩余 0.7 分
+  136,847/235,994 细胞  用时 0.7 分  预计剩余 0.5 分
+  178,309/235,994 细胞  用时 0.8 分  预计剩余 0.3 分
+  227,357/235,994 细胞  用时 1.0 分  预计剩余 0.0 分
+
+各群体细胞数：
+  pop_primary_memory         120,988
+  pop_sens_with_CTL          141,552
+  pop_secondary_allCD4       222,053
+  pop_sens_allCD4_treg       235,994
+
+signature 基因平均检出 14.2/107
+总用时 1.1 分
+已写出 /Users/heavenlake/Desktop/Context-dependent_ICOS_analysis_results/analysis_results/gate1_cell_scores.csv.gz
+
+本步骤未做任何分组比较。

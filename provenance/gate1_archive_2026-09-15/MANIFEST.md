@@ -1,0 +1,32 @@
+# MANIFEST — Gate 1 archive, 2026-09-15
+
+MD5  bytes  path
+
+f5490c6f2c6ce13e0f7c74e85a420d1e  3076  README.md
+75382ab24299d642571c7b3c558fd88a  1360  analysis_results/gate1_02.log
+6011b7b9db2fdd7799dc2f95baf4e7da  1669  analysis_results/gate1_03.log
+fae171de31b425970d457063425db2d1  2931  analysis_results/gate1_audit_summary.json
+ea5c940450cfa798e5a0e012dda809a2  616  analysis_results/gate1_calibration_diagnostics.json
+a7cd885d707bfc87105c509541a94a47  70679  analysis_results/gate1_control_sets.csv.gz
+0f9e6823e13fe622eff6fbeab616b4f0  42928  analysis_results/gate1_control_sets_geneidx.npy
+1f6c635542552875d1e5a6d1a6cb2a7e  2445  analysis_results/gate1_gate_test_results.json
+154c499269c80e9e1a9c0d57ed6ac42c  666  analysis_results/gate1_obs_columns.csv
+51e5723b6f2a675986ef3f18105ed54e  2962  analysis_results/gate1_patient_level_blinded.csv
+4bf3158a7a7f0d2150a1e12d00fc2096  4190  analysis_results/gate1_patient_level_unblinded.csv
+329d1a74527c562d589f75cbaf8f22da  162121  analysis_results/gate1_primary_perpatient.png
+1696e75c254130000bff49f75394e444  295  analysis_results/gate1_raw_audit.json
+9adbadaeaa2a065bced3c5f7bc21917d  23185  metadata/gate1_SAP.md
+1d67c59ee07666f4a81b15040900b9aa  5377  metadata/gate2_preregistration_DRAFT.md
+6255141e380cc4acfb57004869563fee  567  metadata/memory_cd4_label_mapping.csv
+27859f1849a212daef47c9c0257a8cd7  387  metadata/ortholog_attrition.csv
+780b99d1ef6b0b3b5d873ce57848a024  2476  metadata/rat_107gene_frozen_signature.csv
+16cf49777d3ccad6dcb55d07f64142a7  970  metadata/sample_identity_provenance.csv
+780b99d1ef6b0b3b5d873ce57848a024  2476  provenance/G0C_frozen_signature.csv
+46378898e04e094f67c58c46894ef03a  11570  provenance/analysis_plan_frozen.md
+27859f1849a212daef47c9c0257a8cd7  387  provenance/ortholog_attrition.csv
+ce030acbc7addf0f2a24ac0d68b3f7f9  7147  scripts/gate1_01_audit.py
+2e9ebc1c9be035f55fe7ca112e9f65b8  10925  scripts/gate1_01_audit_v2.py
+e4a90241611f4ee8a3424396340f19b0  4149  scripts/gate1_01b_raw_audit.py
+7253efbb086214c7865632e75a87037e  6925  scripts/gate1_02_score.py
+5d876fed9b590daf458d543f654e6452  17029  scripts/gate1_03_calibrate.py
+ee480e1f4b62b69dc230918aa728c709  8358  scripts/gate1_04_gate_test.py

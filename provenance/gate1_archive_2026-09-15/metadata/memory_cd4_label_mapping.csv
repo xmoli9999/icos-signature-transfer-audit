@@ -1,0 +1,6 @@
+original_label,population,is_memory_primary,in_sens_ctl,in_secondary_allCD4,in_sens_allCD4_with_treg,note
+CD4 T CM,CD4 central memory,TRUE,TRUE,TRUE,TRUE,中央记忆 conventional CD4
+CD4 T Eff/EM,CD4 effector/effector memory,TRUE,TRUE,TRUE,TRUE,效应/效应记忆 conventional CD4
+CD4 CTL,CD4 cytotoxic,FALSE,TRUE,TRUE,TRUE,抗原经历但为终末细胞毒分化；仅进 sensitivity
+CD4 T Naive,CD4 naive,FALSE,FALSE,TRUE,TRUE,naive，不属记忆池
+CD4 Treg,CD4 regulatory,FALSE,FALSE,FALSE,TRUE,大鼠 discovery 阶段即排除 Treg；仅进额外 sensitivity

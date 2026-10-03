@@ -1,0 +1,167 @@
+{
+  "file": "/Users/heavenlake/Desktop/GSE290679/source/GSE290679_10069-MS_allsamples_processed_labeled_filtered.h5ad",
+  "file_GB": 28.02,
+  "top_level_keys": [
+    "X",
+    "layers",
+    "obs",
+    "obsm",
+    "obsp",
+    "raw",
+    "uns",
+    "var",
+    "varm",
+    "varp"
+  ],
+  "matrices": [
+    {
+      "path": "X",
+      "encoding": "csr_matrix",
+      "shape": [
+        644147,
+        5000
+      ],
+      "dtype": "float64",
+      "indices_dtype": "int32",
+      "nnz": 150152674,
+      "est_full_load_GB": 1.8
+    },
+    {
+      "path": "layers/counts",
+      "encoding": "csr_matrix",
+      "shape": [
+        644147,
+        5000
+      ],
+      "dtype": "float64",
+      "indices_dtype": "int32",
+      "nnz": 150152674,
+      "est_full_load_GB": 1.8
+    },
+    {
+      "path": "layers/scVI_normalized",
+      "encoding": "array",
+      "shape": [
+        644147,
+        5000
+      ],
+      "dtype": "float32",
+      "nnz": null,
+      "est_full_load_GB": 12.88
+    },
+    {
+      "path": "raw/X",
+      "encoding": "csr_matrix",
+      "shape": [
+        644147,
+        36601
+      ],
+      "dtype": "float64",
+      "indices_dtype": "int32",
+      "nnz": 899118592,
+      "est_full_load_GB": 10.79
+    }
+  ],
+  "raw_var_present": true,
+  "shape": [
+    644147,
+    5000
+  ],
+  "obs_mem_MB": 130.9,
+  "candidates": {
+    "sample": [
+      "orig.ident"
+    ],
+    "group": [
+      "ICU",
+      "Group"
+    ],
+    "celltype": [
+      "orig.ident",
+      "_scvi_labels",
+      "celltype_coarse",
+      "celltype_fine"
+    ]
+  },
+  "coverage": {
+    "var_names": {
+      "n_hit": 34,
+      "coverage": 0.3178,
+      "missing": [
+        "AGPAT3",
+        "ALDH4A1",
+        "ANKIB1",
+        "ANTXR2",
+        "ARID5A",
+        "ARL6IP5",
+        "ASNS",
+        "ATP2B4",
+        "BATF",
+        "CAPN2",
+        "CBX2",
+        "CD82",
+        "CDC25B",
+        "CERS4",
+        "CHN2",
+        "CLIC1",
+        "CTSF",
+        "DAP",
+        "DNA2",
+        "DNAJC3",
+        "DTX1",
+        "ECI1",
+        "EIF4E3",
+        "FAM241A",
+        "GALE",
+        "GALNT2",
+        "GIMAP4",
+        "HIVEP2",
+        "IL18R1",
+        "IL6R",
+        "ITGAL",
+        "LRBA",
+        "LYSMD2",
+        "MAGT1",
+        "MAP3K5",
+        "MED30",
+        "MTG2",
+        "N4BP2L1",
+        "NAB1",
+        "NBN",
+        "NUDT5",
+        "PHTF2",
+        "PIGK",
+        "PPTC7",
+        "PSTPIP1",
+        "PTPMT1",
+        "PTPN1",
+        "PTPN7",
+        "QPRT",
+        "RABGAP1L",
+        "RAP2C",
+        "RINL",
+        "RNF19B",
+        "RNPEP",
+        "SLAMF6",
+        "SLC39A1",
+        "SLC41A1",
+        "SLC7A1",
+        "SMAP1",
+        "SMARCAL1",
+        "STARD10",
+        "STK39",
+        "TBC1D2B",
+        "TNFSF8",
+        "TPST2",
+        "TRAF1",
+        "TRAF3IP2",
+        "TRAPPC6B",
+        "TRIB2",
+        "UNC119B",
+        "UNC13D",
+        "VAV3",
+        "ZC3H12D"
+      ]
+    }
+  }
+}

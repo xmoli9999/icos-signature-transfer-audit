@@ -1,0 +1,13 @@
+quantity,value
+cell_raw,0.5269797569759289
+cell_calibrated,0.201545205661946
+donor_raw,0.831545778150955
+donor_calibrated,0.5366135702279943
+within_group_raw,0.8254385964912281
+within_group_calibrated,0.5947368421052632
+n_cells_primary_memory_all_donors,120988.0
+n_cells_primary_memory_icu_only,93135.0
+n_donors_all,47.0
+n_donors_icu,38.0
+plot_subsample_n,25000.0
+plot_subsample_seed,3.0

@@ -1,0 +1,5 @@
+stage,n,provenance
+"candidate signature (memory-matched, no ortholog restriction)",155,Ensembl 116 / GRCr8; BioMart export 2026-09-14
+of which rat-mouse 1:1,135,Ensembl 116 / GRCr8; BioMart export 2026-09-14
+of which rat-mouse-human 1:1,129,Ensembl 116 / GRCr8; BioMart export 2026-09-14
+FINAL frozen (universe locked before selection),107,Ensembl 116 / GRCr8; BioMart export 2026-09-14

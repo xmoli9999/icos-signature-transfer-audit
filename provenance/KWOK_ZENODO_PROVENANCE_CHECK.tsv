@@ -1,0 +1,5 @@
+file	local_bytes	local_md5	md5_in_frozen_gate2b_appendix_F	md5_on_zenodo_7924238	present_in_zenodo_7723202	match
+Kwok-et-al_2023_BD-Rhapsody_whole-blood_RNA-counts.mtx	3494797339	719ef6a602474e78c2331e39be9bee02	719ef6a602474e78c2331e39be9bee02	719ef6a602474e78c2331e39be9bee02	yes (same md5)	PASS
+Kwok-et-al_2023_BD-Rhapsody_whole-blood_RNA-counts_barcodes.tsv	9270174	9812e0d17d1a25c2b65006edfc068e86	9812e0d17d1a25c2b65006edfc068e86	9812e0d17d1a25c2b65006edfc068e86	no (absent from that record)	PASS
+Kwok-et-al_2023_BD-Rhapsody_whole-blood_RNA-counts_features.tsv	177721	f927042500a6b4e9f3e4344b87815626	f927042500a6b4e9f3e4344b87815626	f927042500a6b4e9f3e4344b87815626	no (absent from that record)	PASS
+Kwok-et-al_2023_BD-Rhapsody_whole-blood_cell-metadata.tsv	151531112	3c71e9e7947bd8a5b962b4d4a7ba4664	3c71e9e7947bd8a5b962b4d4a7ba4664	3c71e9e7947bd8a5b962b4d4a7ba4664	yes (same md5)	PASS

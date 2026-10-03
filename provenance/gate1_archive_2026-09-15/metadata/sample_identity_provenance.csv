@@ -1,0 +1,7 @@
+gsm,srx,srr,geo_title_or_label,public_archive_filename,deposited_matrix_directory,working_group_assignment,raw_cells,feature_set,status
+GSM8700857,SRX27183286,SRR31822888,sham,GSE285325_RAW.tar::GSM8700857_Clp1.tar.gz,Clp1,CLP,6921,A,GEO label conflicts with archive filename
+GSM8700858,SRX27183285,SRR31822887,Sham2,GSE285325_RAW.tar::GSM8700858_Clp2.tar.gz,Clp2,CLP,12606,B,GEO label conflicts with archive filename
+GSM8700859,SRX27183284,SRR31822886,sham3,GSE285325_RAW.tar::GSM8700859_Clp3.tar.gz,Clp3,CLP,12648,B,GEO label conflicts with archive filename
+GSM8700860,SRX27183283,SRR31822885,unknown,GSE285325_RAW.tar::GSM8700860_Sham1.tar.gz,Sham1,Sham,6995,A,GEO title requires confirmation
+GSM8700861,SRX27183282,SRR31822884,unknown,GSE285325_RAW.tar::GSM8700861_Sham2.tar.gz,Sham2,Sham,13015,B,GEO title requires confirmation
+GSM8700862,SRX27183281,SRR31822883,unknown,GSE285325_RAW.tar::GSM8700862_Sham3.tar.gz,Sham3,Sham,12164,B,GEO title requires confirmation
