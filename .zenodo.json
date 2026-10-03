@@ -18,8 +18,9 @@
   ],
   "related_identifiers": [
     {"identifier": "10.1016/j.celrep.2025.115469", "relation": "isDerivedFrom", "scheme": "doi"},
-    {"identifier": "GSE285325", "relation": "isDerivedFrom", "scheme": "other"},
-    {"identifier": "GSE290679", "relation": "isDerivedFrom", "scheme": "other"},
-    {"identifier": "10.5281/zenodo.7924238", "relation": "isDerivedFrom", "scheme": "doi"}
+    {"identifier": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE285325", "relation": "isDerivedFrom", "scheme": "url"},
+    {"identifier": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE290679", "relation": "isDerivedFrom", "scheme": "url"},
+    {"identifier": "10.5281/zenodo.7924238", "relation": "isDerivedFrom", "scheme": "doi"},
+    {"identifier": "https://github.com/xmoli9999/icos-signature-transfer-audit", "relation": "isSupplementTo", "scheme": "url"}
   ]
 }
