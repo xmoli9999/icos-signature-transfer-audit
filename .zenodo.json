@@ -1,0 +1,25 @@
+{
+  "title": "Analysis code and frozen provenance for: Cell-state mixture and detection depth can change what a transferred single-cell signature reports",
+  "upload_type": "software",
+  "description": "<p>Complete analysis code, frozen analysis plans, archived intermediate results, figure-generation scripts with their machine-readable source tables, and a tested reference implementation of the four-term patient-weighted decomposition, for the accompanying manuscript.</p><p>The study is a secondary analysis of previously published, publicly available data. Primary datasets are not redistributed here; they are available from GEO (GSE285325, GSE290679), Zenodo record 7924238, the Single Cell Portal (SCP548) and CELLxGENE, as described in README.md.</p>",
+  "license": "MIT",
+  "access_right": "open",
+  "creators": [
+    {"name": "Jin, Linzi", "affiliation": "Department of Emergency Medicine, Shanghai Fourth People's Hospital, School of Medicine, Tongji University, Shanghai, China"},
+    {"name": "Chen, Danxia", "affiliation": "Department of Emergency Medicine, Shanghai Fourth People's Hospital, School of Medicine, Tongji University, Shanghai, China"},
+    {"name": "Wang, Zhenxia", "affiliation": "Department of Emergency Medicine, Shanghai Fourth People's Hospital, School of Medicine, Tongji University, Shanghai, China"},
+    {"name": "Tang, Min", "affiliation": "Department of Emergency Medicine, Shanghai Fourth People's Hospital, School of Medicine, Tongji University, Shanghai, China"},
+    {"name": "Shu, Qinqin", "affiliation": "Department of Emergency Medicine, Shanghai Fourth People's Hospital, School of Medicine, Tongji University, Shanghai, China"},
+    {"name": "Li, Yan", "affiliation": "Department of Emergency Medicine, Shanghai Fourth People's Hospital, School of Medicine, Tongji University, Shanghai, China", "orcid": "0009-0000-2236-5199"}
+  ],
+  "keywords": [
+    "single-cell RNA-seq", "gene signature transfer", "cell-state composition",
+    "detection depth", "reproducibility", "sepsis", "CD4 T cells", "UCell"
+  ],
+  "related_identifiers": [
+    {"identifier": "10.1016/j.celrep.2025.115469", "relation": "isDerivedFrom", "scheme": "doi"},
+    {"identifier": "GSE285325", "relation": "isDerivedFrom", "scheme": "other"},
+    {"identifier": "GSE290679", "relation": "isDerivedFrom", "scheme": "other"},
+    {"identifier": "10.5281/zenodo.7924238", "relation": "isDerivedFrom", "scheme": "doi"}
+  ]
+}
