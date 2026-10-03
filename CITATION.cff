@@ -2,6 +2,10 @@ cff-version: 1.2.0
 message: "If you use this archive, please cite the accompanying article."
 title: "Analysis code and frozen provenance for: Cell-state mixture and detection depth can change what a transferred single-cell signature reports"
 license: MIT
+version: "1.0.0"
+date-released: "2026-10-03"
+doi: "10.5281/zenodo.23116737"
+repository-code: "https://github.com/xmoli9999/icos-signature-transfer-audit"
 authors:
   - family-names: Jin
     given-names: Linzi

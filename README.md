@@ -7,6 +7,9 @@ single-cell signature reports*.
 Licence: MIT (see `LICENSE`). Written for deposition on Zenodo and mirroring on
 GitHub, as required by the journal's open-source and data-availability policy.
 
+Repository: https://github.com/xmoli9999/icos-signature-transfer-audit  
+Archived version of record: https://doi.org/10.5281/zenodo.23116737
+
 ## What this is, and what it is not
 
 This study is a **secondary analysis of previously published, publicly available
